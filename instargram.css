@@ -1,0 +1,181 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+  height : 100vh;
+	margin : 0;
+	background: #fafafa;
+	font-size: 14px;
+}
+.signup-page{
+	height: 100%;
+	display : flex;
+	flex-direction : column;
+}
+.sign{
+	flex-grow : 1;
+}
+.wrapper .signup{
+	max-width: 350px;
+	width: 100%;
+	height: 100%;
+	margin: 50px auto;
+    flex-direction : column;
+}
+.instargram-img{
+	height: 400px;
+	flex : 0 0 320px;
+	background-size : contain;
+    margin: 80px 0px 0px 0px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.sign > article{
+	width:700px;
+	max-width: 935px;
+	margin: 50px auto 0;
+	display : flex;
+	justify-content : center;
+}
+
+.wrapper .signup .top,
+.wrapper .account{
+	background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    padding: 40px 40px 20px;
+}
+
+.wrapper .signup .logo img{
+	display: block;
+	margin: 0 auto 35px;
+}
+
+.wrapper .signup .form .input_field{
+	margin-bottom: 5px;
+}
+
+.wrapper .signup .form .input_field .input{
+	width: 100%;
+	background: #fafafa;
+	border: 1px solid #efefef;
+	font-size: 12px;
+	border-radius: 3px;
+	color: #262626;
+	padding: 10px;
+}
+
+.wrapper .signup .form .input_field .input:focus{
+	border: 1px solid #b2b2b2;
+}
+
+.wrapper .signup .form .btn > button{
+    width : 260px;
+	height : 30px;
+	margin: 10px 0 10px;
+	background-color: #9AD4F5;
+    border: 1px solid #9AD4F5;
+    border-radius: 5px;
+    font-size : 14px;
+	font-weight: bold;
+	cursor:pointer;
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+	display: block;
+}
+
+.wrapper .signup .or{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 15px;
+	margin: 15px 0 20px;
+}
+
+.wrapper .signup .or .line{
+	width: 105px;
+	height: 2px;
+	background: #efefef
+}
+
+.wrapper .signup .or p{
+	color: #999;
+	font-size: 12px;
+}
+
+.wrapper .fbs .fb{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper .fbs .fb img{
+	width: 16px;
+	height: 16px;
+}
+
+.wrapper .fbs  .fb a{
+	color: #385185;
+	font-weight: 500;
+	margin-left: 10px;
+}
+
+.wrapper .fbs .forgot{
+	font-size: 12px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.wrapper .fbs .forgot a{
+	color: #003569;
+}
+
+.wrapper .account{
+	margin: 10px 0 20px;
+	padding: 25px 40px;
+	text-align: center;
+	color: #262626;
+}
+
+.wrapper .account a{
+  font-weight: bold ;
+	color: #3897f0;
+}
+
+.wrapper .apps{
+	text-align: center;
+	color: #262626;
+}
+
+.wrapper .apps p{
+	margin-bottom: 20px;
+}
+
+.wrapper .apps a img{
+	width: 135px;
+	height: 40px;
+	margin: 0 5px;
+}
+
+.menu{
+    text-align: center;
+    font-size : 12px;
+    font-weight: 400;
+		margin : 0 5px 10px 5px;
+}
+
+.copyright{
+	text-align: center;
+	font-size: 12px;
+	font-weight : 400;
+	color : #8e8e8e;
+}
